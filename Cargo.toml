@@ -1,0 +1,11 @@
+[package]
+name = "cargo-c-nasm-repro"
+version = "0.1.0"
+authors = ["David Michael Barr <b@rr-dav.id.au>"]
+edition = "2018"
+
+[build-dependencies]
+nasm-rs = "0.1"
+
+[lib]
+crate-type = ["lib", "staticlib"]
